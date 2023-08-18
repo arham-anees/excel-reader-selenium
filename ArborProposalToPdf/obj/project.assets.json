@@ -75,6 +75,9 @@
           }
         }
       },
+      "Selenium.Mozilla.Firefox.Webdriver/0.6.0.1": {
+        "type": "package"
+      },
       "Selenium.WebDriver/4.11.0": {
         "type": "package",
         "dependencies": {
@@ -232,6 +235,22 @@
         "packageIcon.png"
       ]
     },
+    "Selenium.Mozilla.Firefox.Webdriver/0.6.0.1": {
+      "sha512": "gW7ODClQCQNr146qkcTx5RiOeSsrahQ4B5nUNk3NDXVQ4T1i9yPGd66NomRcuszOCJj3XNc/0xmUz27/0xYovA==",
+      "type": "package",
+      "path": "selenium.mozilla.firefox.webdriver/0.6.0.1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Driver/wires-0.6.0-win.exe",
+        "content/Readme.txt",
+        "selenium.mozilla.firefox.webdriver.0.6.0.1.nupkg.sha512",
+        "selenium.mozilla.firefox.webdriver.nuspec",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
     "Selenium.WebDriver/4.11.0": {
       "sha512": "V8o+Nvi9/3Ix12ZzMGg+fI7sfu+HrflZkMGq8Orr+j0INbfpEEyM6KR9oaaHlm0WUXcn7dTYwyWrJxYsi6eniw==",
       "type": "package",
@@ -324,6 +343,7 @@
     "net6.0": [
       "ExcelDataReader >= 3.6.0",
       "IronXL.Excel >= 2023.8.19",
+      "Selenium.Mozilla.Firefox.Webdriver >= 0.6.0.1",
       "Selenium.WebDriver >= 4.11.0",
       "Selenium.WebDriver.ChromeDriver >= 116.0.5845.9600"
     ]
@@ -374,6 +394,10 @@
           "IronXL.Excel": {
             "target": "Package",
             "version": "[2023.8.19, )"
+          },
+          "Selenium.Mozilla.Firefox.Webdriver": {
+            "target": "Package",
+            "version": "[0.6.0.1, )"
           },
           "Selenium.WebDriver": {
             "target": "Package",

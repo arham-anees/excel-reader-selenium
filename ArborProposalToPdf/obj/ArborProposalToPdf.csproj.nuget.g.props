@@ -15,4 +15,7 @@
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)sixlabors.imagesharp\3.0.0\build\SixLabors.ImageSharp.props" Condition="Exists('$(NuGetPackageRoot)sixlabors.imagesharp\3.0.0\build\SixLabors.ImageSharp.props')" />
   </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgSelenium_Mozilla_Firefox_Webdriver Condition=" '$(PkgSelenium_Mozilla_Firefox_Webdriver)' == '' ">C:\Users\Latitude\.nuget\packages\selenium.mozilla.firefox.webdriver\0.6.0.1</PkgSelenium_Mozilla_Firefox_Webdriver>
+  </PropertyGroup>
 </Project>

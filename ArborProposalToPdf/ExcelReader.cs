@@ -9,9 +9,9 @@ namespace ArborProposalToPdf
     {
       System.Text.Encoding.RegisterProvider(System.Text.CodePagesEncodingProvider.Instance);
     }
-    public List<string> ReadLinks(string path)
+    public List<Proposal> ReadLinks(string path)
     {
-      List<string> links = new();
+      List<Proposal> links = new();
       using (var stream = File.Open(path, FileMode.Open, FileAccess.Read))
       {
         using (var reader = ExcelReaderFactory.CreateReader(stream))
@@ -23,7 +23,12 @@ namespace ArborProposalToPdf
               var link = reader.GetString(4);
               if (link != "url")
               {
-                links.Add(link);
+              var groupId = reader.GetDouble(1).ToString();
+                links.Add(new Proposal
+                {
+                  GroupId= groupId,
+                  Link=link
+                });
               }
             }
           } while (reader.NextResult());
