@@ -19,3 +19,8 @@ C:\Users\Latitude\Desktop\Workspace\ArborProposalToPdf\ArborProposalToPdf\obj\De
 C:\Users\Latitude\Desktop\Workspace\ArborProposalToPdf\ArborProposalToPdf\obj\Debug\net6.0\ArborProposalToPdf.genruntimeconfig.cache
 C:\Users\Latitude\Desktop\Workspace\ArborProposalToPdf\ArborProposalToPdf\obj\Debug\net6.0\ref\ArborProposalToPdf.dll
 C:\Users\Latitude\Desktop\Workspace\ArborProposalToPdf\ArborProposalToPdf\bin\Debug\net6.0\ExcelDataReader.dll
+C:\Users\Latitude\Desktop\Workspace\ArborProposalToPdf\ArborProposalToPdf\bin\Debug\net6.0\selenium-manager\linux\selenium-manager
+C:\Users\Latitude\Desktop\Workspace\ArborProposalToPdf\ArborProposalToPdf\bin\Debug\net6.0\selenium-manager\macos\selenium-manager
+C:\Users\Latitude\Desktop\Workspace\ArborProposalToPdf\ArborProposalToPdf\bin\Debug\net6.0\selenium-manager\windows\selenium-manager.exe
+C:\Users\Latitude\Desktop\Workspace\ArborProposalToPdf\ArborProposalToPdf\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Latitude\Desktop\Workspace\ArborProposalToPdf\ArborProposalToPdf\bin\Debug\net6.0\WebDriver.dll

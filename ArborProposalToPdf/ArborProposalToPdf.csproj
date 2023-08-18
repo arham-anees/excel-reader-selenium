@@ -10,6 +10,8 @@
   <ItemGroup>
     <PackageReference Include="ExcelDataReader" Version="3.6.0" />
     <PackageReference Include="IronXL.Excel" Version="2023.8.19" />
+    <PackageReference Include="Selenium.WebDriver" Version="4.11.0" />
+    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="116.0.5845.9600" />
   </ItemGroup>
 
 </Project>

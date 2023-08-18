@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "InOM/odCNcR8euvKSnFwJ8L00qX4MBtjc50/LNNT0X3/X/A9YT3q5L8IXbvBHdqU3N0EQ1WjgPZiqsWIMmcRxw==",
+  "dgSpecHash": "ef/DbhvR0vok6rN0FyrVFMm/+4kUv/T6hk/hFfDR2VuVwar2qFFPI809MTh8YL/TrTwQRWkB4DTwNdQZD92u7w==",
   "success": true,
   "projectFilePath": "C:\\Users\\Latitude\\Desktop\\Workspace\\ArborProposalToPdf\\ArborProposalToPdf\\ArborProposalToPdf.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,9 @@
     "C:\\Users\\Latitude\\.nuget\\packages\\exceldatareader\\3.6.0\\exceldatareader.3.6.0.nupkg.sha512",
     "C:\\Users\\Latitude\\.nuget\\packages\\ironsoftware.system.drawing\\2023.7.1\\ironsoftware.system.drawing.2023.7.1.nupkg.sha512",
     "C:\\Users\\Latitude\\.nuget\\packages\\ironxl.excel\\2023.8.19\\ironxl.excel.2023.8.19.nupkg.sha512",
+    "C:\\Users\\Latitude\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Latitude\\.nuget\\packages\\selenium.webdriver\\4.11.0\\selenium.webdriver.4.11.0.nupkg.sha512",
+    "C:\\Users\\Latitude\\.nuget\\packages\\selenium.webdriver.chromedriver\\116.0.5845.9600\\selenium.webdriver.chromedriver.116.0.5845.9600.nupkg.sha512",
     "C:\\Users\\Latitude\\.nuget\\packages\\sixlabors.imagesharp\\3.0.0\\sixlabors.imagesharp.3.0.0.nupkg.sha512",
     "C:\\Users\\Latitude\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512"
   ],
