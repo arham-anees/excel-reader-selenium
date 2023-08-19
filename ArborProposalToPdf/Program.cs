@@ -22,11 +22,12 @@ var browserSupport = new BrowserSupport();
 
 int count = 0;
 int startFrom = 0;
+int endAt = 300;
 browserSupport.OpenBrowser();
 foreach (var proposal in proposals)
 {
   count++;
-  if (startFrom <= count)
+  if (startFrom <= count && endAt>=count)
   {
     try
     {
