@@ -18,7 +18,8 @@ namespace ArborProposalToPdf
     {
       driver.Navigate().GoToUrl(url);
       WebDriverWait wait = new(driver, TimeSpan.FromSeconds(30));
-      wait.Until(e => e.FindElement(By.ClassName("container")));
+      wait.Until(e => e.FindElement(By.Id("map")));
+      Thread.Sleep(5000);
     }
 
     public void Print(string name)
